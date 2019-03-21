@@ -14,5 +14,6 @@ test:
     - ddev --version
     - ddev config set core .
     - git tag -a -m "tested-0.1.0" tested-0.1.0
+    - aws --help
     # - if [ -n "$DD_TEST_CMD" ] ; then eval "$DD_TEST_CMD" ; else echo "skipping, DD_TEST_CMD is not set" ; fi
   tags: [ "runner:main", "size:large" ]
